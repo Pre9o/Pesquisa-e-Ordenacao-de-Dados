@@ -5,7 +5,7 @@
 #define TAMANHO 10
 
 void shellsort(int *vetor, int tamanho){
-    int i, j, intervalo = 1, aux;
+    int i, j, intervalo, aux;
 
     intervalo = tamanho / 2;
 
